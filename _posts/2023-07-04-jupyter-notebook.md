@@ -38,10 +38,10 @@ The plugin takes as input the path to the notebook, but it assumes the file exis
 {% if notebook_exists == "true" %}
 {% jupyter_notebook jupyter_path %}
 {% else %}
-{% endcomment %}
 
 <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
+{% endcomment %}
 
 Note that the jupyter notebook supports both light and dark themes.
